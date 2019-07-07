@@ -1,0 +1,47 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #282828;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+header h1 {
+  margin: 32px 0 24px 0;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+header p {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+header a {
+  color: #282828;
+  text-decoration: underline;
+}
+
+section.main {
+  text-align: center;
+}
+
+@media (min-height: 768px) {
+  body {
+    margin-top: 40px;
+  }
+}
