@@ -19,6 +19,33 @@ body {
   padding: 32px;
 }
 
+a {
+  color: #282828;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a.button {
+  background: linear-gradient(to right, #e052a0, #f15c41);
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 32px;
+  transform: translateY(-2px);
+  text-decoration: none;
+  border: 0;
+  text-align: center;
+}
+
+a.button:hover {
+  background: linear-gradient(to right, #3ec7e0, #526bf4);
+}
+
 header h1 {
   margin: 32px 0 24px 0;
   font-size: 32px;
@@ -31,9 +58,25 @@ header p {
   line-height: 36px;
 }
 
-header a {
-  color: #282828;
-  text-decoration: underline;
+section {
+  margin: 48px auto;
+}
+
+section h2,
+section h3 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+section h3 {
+  font-size: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 section.main {
@@ -44,4 +87,30 @@ section.main {
   body {
     margin-top: 40px;
   }
+}
+
+section.join ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.join ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 32px 0 0;
+}
+
+section.join ul li img {
+  max-height: 32px;
+  padding-right: 8px;
+}
+
+section.join ul li a {
+  display: flex;
+  align-items: center;
+}
+
+section.partners img {
+  max-height: 64px;
 }
