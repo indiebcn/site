@@ -101,6 +101,13 @@ section.join ul li {
   margin: 0 32px 0 0;
 }
 
+@media (max-width: 568px) {
+  section.join ul li {
+    display: block;
+    margin: 0 0 16px 0;
+  }
+}
+
 section.join ul li img {
   max-height: 32px;
   padding-right: 8px;
